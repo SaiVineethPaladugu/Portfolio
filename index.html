@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sai Vineeth Paladugu, FPGA and Embedded Systems Engineer." />
+  <title>Sai Vineeth Paladugu | FPGA Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="#home">SVP</a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">FPGA • RTL • Embedded Systems</p>
+          <h1>Sai Vineeth Paladugu</h1>
+          <h2>FPGA / RTL Design Engineer</h2>
+          <p class="hero-copy">
+            M.S. Computer Engineering graduate with hands-on experience in VHDL,
+            Verilog, Xilinx Vivado, digital design, verification, embedded systems,
+            and FPGA-based hardware development.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn secondary" href="resume.pdf" target="_blank">View Resume</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Denton, Texas</span>
+            <span>💼 Open to FPGA, RTL, Embedded and Digital Design roles</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="chip">
+            <div class="chip-core">FPGA</div>
+            <span class="pin p1"></span><span class="pin p2"></span>
+            <span class="pin p3"></span><span class="pin p4"></span>
+            <span class="pin p5"></span><span class="pin p6"></span>
+            <span class="pin p7"></span><span class="pin p8"></span>
+          </div>
+          <p>Design. Verify. Synthesize. Deploy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-label">About Me</p>
+        <h2>Engineering digital systems from RTL to hardware</h2>
+        <p>
+          I am a Computer Engineering graduate from the University of North Texas
+          with a strong interest in FPGA architecture, RTL design, digital signal
+          processing, embedded systems, and hardware-software integration.
+        </p>
+        <p>
+          My experience includes developing VHDL and Verilog modules, creating
+          testbenches, synthesizing and implementing designs in Xilinx Vivado,
+          debugging FPGA systems, and mentoring students in digital design,
+          Python, C, and hardware laboratories.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="section-label">Technical Skills</p>
+        <h2>Core engineering toolkit</h2>
+        <div class="cards four">
+          <article class="card">
+            <h3>FPGA & RTL</h3>
+            <p>VHDL, Verilog, RTL design, FSMs, datapaths, testbenches, timing-aware design</p>
+          </article>
+          <article class="card">
+            <h3>EDA Tools</h3>
+            <p>Xilinx Vivado, ModelSim, XSim, Cadence Virtuoso, LTspice, KiCad</p>
+          </article>
+          <article class="card">
+            <h3>Embedded</h3>
+            <p>C, C++, Python, Arduino, ESP32, Wio Terminal, sensors, BLE, OLED/TFT interfaces</p>
+          </article>
+          <article class="card">
+            <h3>Hardware</h3>
+            <p>Digital logic, computer architecture, CMOS, PCB design, lab debugging, schematics</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <p class="section-label">Featured Projects</p>
+        <h2>Selected FPGA and embedded work</h2>
+        <div class="cards three">
+          <article class="project-card">
+            <div class="project-tag">FPGA / VHDL</div>
+            <h3>AES-128 Hardware Accelerator</h3>
+            <p>
+              Modular FPGA implementation of AES-128 with separate encryption stages,
+              control logic, verification strategy, and synthesis-ready VHDL structure.
+            </p>
+            <ul>
+              <li>RTL architecture and datapath partitioning</li>
+              <li>VHDL module development</li>
+              <li>Simulation and functional verification</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">FPGA / Digital Design</div>
+            <h3>Reconfigurable Computing Unit Array</h3>
+            <p>
+              Designed configurable processing arrays using reusable control and datapath
+              blocks for scalable 2×4 and 3×5 architectures.
+            </p>
+            <ul>
+              <li>Parameterized RTL design</li>
+              <li>Control-unit architecture</li>
+              <li>Functional simulation</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Embedded / ML</div>
+            <h3>Wearable Health Monitoring System</h3>
+            <p>
+              Developed a sensor-based wearable platform using ESP32-class hardware,
+              biomedical sensors, OLED output, and anomaly detection.
+            </p>
+            <ul>
+              <li>Sensor integration and firmware</li>
+              <li>Edge ML anomaly detection</li>
+              <li>PCB design and system integration</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">FPGA / Verification</div>
+            <h3>CRC-8 Hardware Module</h3>
+            <p>
+              Implemented and validated a CRC-8 generator using software modeling and
+              synthesizable VHDL.
+            </p>
+            <ul>
+              <li>C reference model</li>
+              <li>VHDL implementation</li>
+              <li>Testbench-based verification</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Embedded Systems</div>
+            <h3>Smart Environmental Logger</h3>
+            <p>
+              Built an embedded data-logging platform using environmental sensors,
+              displays, alarms, and event-driven firmware.
+            </p>
+            <ul>
+              <li>Interrupt-driven firmware</li>
+              <li>Sensor and display interfaces</li>
+              <li>System-level debugging</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Digital Systems</div>
+            <h3>FPGA Design Library</h3>
+            <p>
+              Developed a collection of reusable digital modules including ALUs,
+              comparators, counters, sequence detectors, registers, decoders, and FSMs.
+            </p>
+            <ul>
+              <li>Synthesizable VHDL</li>
+              <li>Self-checking testbenches</li>
+              <li>Nexys 4 DDR deployment</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container narrow">
+        <p class="section-label">Experience</p>
+        <h2>Teaching and engineering support</h2>
+        <article class="timeline-card">
+          <div>
+            <h3>Graduate Teaching Assistant</h3>
+            <p class="muted">University of North Texas</p>
+          </div>
+          <ul>
+            <li>Mentored students in digital systems, circuit design, Python, and C.</li>
+            <li>Supported FPGA laboratories using Xilinx Vivado and VHDL.</li>
+            <li>Guided synthesis, implementation, FPGA-board deployment, and debugging.</li>
+            <li>Evaluated assignments, proctored exams, and provided one-on-one technical support.</li>
+          </ul>
+        </article>
+
+        <article class="timeline-card">
+          <div>
+            <h3>M.S. in Computer Engineering</h3>
+            <p class="muted">University of North Texas</p>
+          </div>
+          <p>
+            Focus areas include FPGA systems, embedded design, computer architecture,
+            VLSI, digital logic, electronics, and hardware-software integration.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container narrow">
+        <p class="section-label">Contact</p>
+        <h2>Let’s connect</h2>
+        <p>
+          I am actively seeking full-time opportunities in FPGA design, RTL development,
+          digital design, embedded systems, and hardware engineering.
+        </p>
+        <div class="contact-links">
+          <a class="btn primary" href="mailto:your-email@example.com">Email Me</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/your-linkedin" target="_blank">LinkedIn</a>
+          <a class="btn secondary" href="https://github.com/your-github" target="_blank">GitHub</a>
+        </div>
+        <p class="note">
+          Replace the email, LinkedIn, GitHub, and resume links with your real information.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer">
+      <p>© <span id="year"></span> Sai Vineeth Paladugu</p>
+      <p>Built for FPGA, RTL, and Embedded Systems opportunities.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
